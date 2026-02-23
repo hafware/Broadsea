@@ -80,7 +80,7 @@ services:
     labels:
       - "traefik.enable=true"
 
-  # WebAPI and Atlas services based on the standard Docker Hub images ------------- HADES_PASSWORD
+  # WebAPI and Atlas services based on the standard Docker Hub images -------------
   ohdsi-webapi-from-image:
     profiles: [ "default", "webapi-from-image" ]
     image: docker.io/ohdsi/webapi:latest
